@@ -28,7 +28,7 @@ echo
 echo
 read -p 'Do you want to Test if your program is correct ? (Y/N) :' choice
 
-if [ $choice == 'Y' ] || [ $choice == 'y' ]; then
+if [ $choice = 'Y' ] || [ $choice = 'y' ]; then
   if [ $no -ge 1 -a $no -le 4 ]; then
      ./test $no
   fi
