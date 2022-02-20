@@ -14,7 +14,7 @@ Do not modify the main function.*/
 
 #include <iostream>
 
-// Implementing the functions.
+// Declare the functions.
 long Factorial(int no);
 long nCr(int n, int r);
 
@@ -34,6 +34,7 @@ int main() {
   return 0;
 }
 
+// Implement the functions.
 long Factorial(int no)
 {
   // Declaring variables.
